@@ -11,4 +11,38 @@ Tutorial for comit to gitt after the coding in tutorials folder
 4. check the status
 	git status
 	
-5. 
+5. add all the file to repository
+
+    git add -all
+	
+6. commit the code
+
+   git commit -m "any message"
+
+7.  Push the file
+
+   git push origin dev
+   (Dev is the branch name)
+   
+   my username pasword
+   saruncr/Turning@123456
+   
+   ############################
+   
+   Checckout new repository
+   
+   1.	 Go inside the project
+   git fetchall --all
+   
+   checkout a new branch
+   1. git checkout dev 
+   dev is the branch here 
+   #############################
+   
+ 1 Pull the script before editing
+
+ 
+ dev is the branch name 
+ 
+ 
+ git pull origin dev
