@@ -1,0 +1,14 @@
+Tutorial for comit to gitt after the coding in tutorials folder
+
+1.	Click Git Bash icon in desktop
+2.   type cd ~   
+	  press enter  
+	  then check your home directory by type pwd
+	  home direcory will be /d/xampp/htdocs/training
+3. Go to the project training 
+	cd training
+	
+4. check the status
+	git status
+	
+5. 
