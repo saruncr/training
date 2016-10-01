@@ -3,13 +3,8 @@ include_once './dbConnection.php';
 $dbConnect = new dbConnection();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $dbConnect->insertStudent();
-    $firstname = $lastname=$email = $gender  = "";
-    $firstname = ($_POST["fname"]);
-    $lastname = ($_POST["lname"]);
-    $gender = ($_POST["gender"]);
-    $email = ($_POST["email"]);
-
-    $finalString = '';
+    
+     $finalString = '';
     $finalString.= "my firstname is $firstname";
     $finalString.= "<br>";
     $finalString .= "my lastname is $lastname";
@@ -17,8 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $finalString .= "my gender is $gender";
     $finalString .= "<br>";
     $finalString .= "my email is $email";
-    
-    insertStudent($firstname,$lastname,$gender,$email);
+  
     echo $finalString;
     exit;
 }

@@ -16,7 +16,16 @@ class dbConnection extends dbConn{
     //put your code here
     public function __construct() {
         parent::__construct();
-        print_r($this->conn);
-        exit;
+       
+    }
+    
+    public function insertStudent(){
+        $firstname = ($_POST["fname"]);
+        $lastname = ($_POST["lname"]);
+        $gender = ($_POST["gender"]);
+        $email = ($_POST["email"]);
+
+    
+  
     }
 }
