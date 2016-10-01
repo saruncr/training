@@ -13,7 +13,7 @@ Tutorial for comit to gitt after the coding in tutorials folder
 	
 5. add all the file to repository
 
-    git add -all
+    git add --all
 	
 6. commit the code
 
@@ -22,7 +22,7 @@ Tutorial for comit to gitt after the coding in tutorials folder
 7.  Push the file
 
    git push origin dev
-   (Dev is the branch name)
+   (Dev is the branch name)pwdpwd
    
    my username pasword
    saruncr/Turning@123456
