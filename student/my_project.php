@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  <table style="width:100%",border=solid black>
      <tr>
   <th>
-  first name: <input type="text" name="fname"> <br>
+  first name: <input type="text" name="fname"> <br>//comment
   last name: <input type="text" name="lname"> <br>
 </th>
 </tr>
