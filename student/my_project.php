@@ -48,6 +48,7 @@ e mail:<input type="text" name="email"> <br>
 </form>
 
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 echo "my firstname is $firstname";
 echo "<br>";
@@ -56,7 +57,7 @@ echo "<br>";
 echo "my gender is $gender";
 echo "<br>";
 echo "my email is $email";
-
+}
 ?>
 
 </body>
