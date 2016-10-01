@@ -1,0 +1,48 @@
+Tutorial for comit to gitt after the coding in tutorials folder
+
+1.	Click Git Bash icon in desktop
+2.   type cd ~   
+	  press enter  
+	  then check your home directory by type pwd
+	  home direcory will be /d/xampp/htdocs/training
+3. Go to the project training 
+	cd training
+	
+4. check the status
+	git status
+	
+5. add all the file to repository
+
+    git add --all
+	
+6. commit the code
+
+   git commit -m "any message"
+
+7.  Push the file
+
+   git push origin dev
+   (Dev is the branch name)
+   
+   my username pasword
+   saruncr/Turning@123456
+   
+   ############################
+   
+   Checckout new repository
+   
+   1.	 Go inside the project
+   git fetch --all
+   
+   checkout a new branch
+   1. git checkout dev 
+   dev is the branch here 
+   #############################
+   
+ 1 Pull the script before editing
+
+ 
+ dev is the branch name 
+ 
+ 
+ git pull origin dev

@@ -1,0 +1,3 @@
+CREATE DATABASE studentDb;
+
+CREATE TABLE `studentDb`.`students` ( `StudentId` INT NOT NULL AUTO_INCREMENT , `RollNo` INT(10) NOT NULL , `StudentName` VARCHAR(255) NOT NULL , `Gender` VARCHAR(10) NOT NULL , `Email` VARCHAR(50) NOT NULL , `Address` TEXT NOT NULL , PRIMARY KEY (`StudentId`(10))) ENGINE = InnoDB; 
