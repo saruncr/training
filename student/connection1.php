@@ -13,12 +13,12 @@ function connect(){
     return $conn;
 }
 
-function  insertStudent($firstname,$lastname,$gender,$email,$rollno,$address){
+function  insertclass($classname,$classdivision,$totalstrenghofclass,$nameofclassteacher){
     
     $conn = connect();
  
-    $sql = "INSERT INTO students (StudentFirstName, StudentLastName, Gender, Email,RollNO,Address)
-            VALUES ( '$firstname', '$lastname', '$gender', '$email','$rollno','$address')";
+    $sql = "INSERT INTO classinfo (ClassName,ClassDivision,TotalStrenghofClass,NameofClassteacher,)
+            VALUES ( '$classname','$classdivision','$totalstrenghofclass','$nameofclassteacher')";
 
     if (mysqli_query($conn, $sql)) {
         echo "New record created successfully". mysqli_insert_id($conn)." :)  <br/>";
