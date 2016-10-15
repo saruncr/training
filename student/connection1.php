@@ -17,7 +17,7 @@ function  insertclass($classname,$classdivision,$totalstrenghofclass,$nameofclas
     
     $conn = connect();
  
-    $sql = "INSERT INTO classinfo (ClassName,ClassDivision,TotalStrenghofClass,NameofClassteacher,)
+    $sql = "INSERT INTO classinfo (ClassName,ClassDivision,TotalStrengthofClass,NameofClassteacher)
             VALUES ( '$classname','$classdivision','$totalstrenghofclass','$nameofclassteacher')";
 
     if (mysqli_query($conn, $sql)) {

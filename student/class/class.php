@@ -1,6 +1,6 @@
 
 <?php
-include_once './connection1.php';
+include_once '../connection1.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -19,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $finalString .= "total strengh of the class is $totalstrenghofclass ";
     $finalString .= "<br>";
     $finalString .= "name of the class teacher is $nameofclassteacher";
+    $finalString .= "<br>";
+    
     insertclass($classname,$classdivision,$totalstrenghofclass,$nameofclassteacher,$classdivision,$totalstrenghofclass,$nameofclassteacher);
     echo $finalString;
     exit;
